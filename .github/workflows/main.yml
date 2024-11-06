@@ -36,3 +36,6 @@ jobs:
           echo test, and deploy your project.
       - name: Run tests
         run: python -m unittest discover
+      - name: Generate documentation
+        run: sphinx-build -b html docs/ docs/_build/html
+
