@@ -57,7 +57,7 @@ jobs:
         run: |
           git add README.md
           git commit -m "Updated README.md documentation automatically"
-          git push origin main
+          git push origin master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
